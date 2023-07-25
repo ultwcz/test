@@ -18,3 +18,20 @@ Create a New file REAEME.md
 > git push origin master(branch name)
 
 
+
+
+## remote
+create local branch
+> git branch 'branch's name'
+
+delete local branch
+> git branch -d 'branch's name'
+
+create remote branch
+** after create local branch
+> git checkout -b 'branch'name'
+git push origin 'branch's name'
+
+delete remote branch
+> git push origin --delete 'branch's name'
+
