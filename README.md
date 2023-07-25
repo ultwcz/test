@@ -1,7 +1,7 @@
 # git command learning repo
 
 ## initialize
-Create a New file REAEME.md
+Create a New file README.md
 
 > git init
 
