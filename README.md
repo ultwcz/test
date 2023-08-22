@@ -35,9 +35,16 @@ git push origin 'branch's name'
 delete remote branch
 > git push origin --delete 'branch's name'
 
-## Modified commited info such as author
+## Modified commited information such as author
 > git rebase -i HEAD~5
-modified pick to edit 'wq' save & exit
+modified `pick` to `edit` 'wq' save & exit
 
 > git commit --amend --author="name <email@xxx.com>" --no-edit
 
+## create individual branch used file managed
+> git checkout --orphan 'new branch'
+
+** clear file
+> rm . -rf 
+
+Finally, creat or copy file and add them
